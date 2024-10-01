@@ -1,7 +1,13 @@
 {
-  "name": "test-extension",
-  "displayName": "test-extension",
-  "description": "test extension",
+  "name": "extension-sideloader",
+  "displayName": "extension-sideloader",
+  "description": "Sideload extensions into VSCode",
+  "author": "Andrew Hertog",
+  "publisher": "andrewhertog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewhertog/extension-sideloader"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.93.0"
