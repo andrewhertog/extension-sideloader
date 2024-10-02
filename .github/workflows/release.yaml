@@ -53,6 +53,8 @@ jobs:
     env:
       PKG_VERSION: ${{ needs.check-release.outputs.package_version }}
       PKG_NAME: ${{ needs.check-release.outputs.package_name }}
+    permissions:
+      contents: write
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
