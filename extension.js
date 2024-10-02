@@ -28,6 +28,7 @@ function activate(context) {
 					},
 					(error) => {
 						console.error(`Failed to install extension ${ext}:`, error);
+						vscode.window.showErrorMessage(`Failed to install extension ${ext}: ${error}`);
 					}
 				);
 			} else {
